@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            COMP804 - Assessment Task 3
+        </title>
+        <script>
+            function cat(){
+                var displayField = document.getElementById("display1");
+                displayField.value = "User clicks cat";
+                var displayP = document.getElementById("display2");
+                displayP.innerHTML = "Cat is clicked";
+                var image = document.getElementById("display3");
+                image.src = "cat.png"
+                var imageSource = document.getElementById("t4Source")
+                imageSource.innerHTML = "Image source: https://knowyourmeme.com/"
+            }
+            function dog(){
+                var displayField = document.getElementById("display1");
+                displayField.value = "User clicks dog";
+                var displayP = document.getElementById("display2");
+                displayP.innerHTML = "Dog is clicked";
+                var image = document.getElementById("display3");
+                image.src = "dog.png"
+                var imageSource = document.getElementById("t4Source")
+                imageSource.innerHTML = "Image source: https://www.pinterest.com.au/pin/569072102918283407/"
+            }
+            function frog(){
+                var displayField = document.getElementById("display1");
+                displayField.value = "User clicks frog";
+                var displayP = document.getElementById("display2");
+                displayP.innerHTML = "Frog is clicked";
+                var image = document.getElementById("display3");
+                image.src = "frog.png"
+                var imageSource = document.getElementById("t4Source")
+                imageSource.innerHTML = "Image source: https://imgflip.com/"
+            }
+        </script>
+        <style>
+            .task1 {
+                color: greenyellow;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: darkolivegreen;
+                border-color: palevioletred;
+                border-style: solid;
+                border-width: 1px;
+                padding: 30px;
+                margin: 30px;
+            }
+            .task2 {
+                font-family: Arial, Helvetica, sans-serif;
+                border-style: solid;
+                border-width: 3px;
+                border-color: palevioletred;
+                width: 80%;
+                margin: auto;
+            }
+            .t2header {
+                color: white;
+                background-color: palevioletred;
+                font-weight: bold;
+                text-align: left;
+            }
+            .oddRow {
+                color: darkolivegreen;
+            }
+            .evenRow {
+                background-color: whitesmoke;
+            }
+            .activityColumn {
+                width: 60%;
+                padding: 10px;
+            }
+            .dateColumn {
+                width: 40%;
+                padding: 10px;
+            }
+
+            .task3 {
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                width: 80%;
+                margin: auto;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            .t3header {
+                font-weight: bold;
+                color: darkturquoise;
+                border-width: 1px;
+                border-color: darkgray;
+                background-color: olivedrab;
+            }
+            .t3content {
+                background-color: whitesmoke;
+                color: darkred
+            }
+            .t3content a {
+                color: olivedrab;
+            }
+            .t3img {
+                width:90%;
+                max-width: 300px;
+            }
+            .nameColumn {
+                width: 30%;
+                padding: 10px;
+                border-color: darkturquoise;
+                border-style: dotted;
+                border-collapse: separate;
+                border-spacing: 10px;
+                border-width: 1px;
+            }
+            .attackColumn {
+                width: 70%;
+                padding: 10px;
+                border-color: darkturquoise;
+                border-style: dotted;
+                border-collapse: separate;
+                border-spacing: 10px;
+                border-width: 1px;
+            }
+
+            .t4 {
+                margin-left: auto;
+                margin-right: auto;
+                padding: 40px;
+                text-align: center;
+                line-height: 2;
+            }
+		    button {
+			    border: 2px solid white;
+	    	}
+            button:focus {
+			    border: 2px solid blue;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Task 1</h1>
+        <div class="task1">
+            <h1>8472130 Daniel Faust</h1>
+            <h2>COMP804: Web Security</h2>
+            <h3>Assignment 1, due at the end of Week 5</h3>
+        </div>
+
+        <h1>Task 2</h1>
+        <table class="task2">
+            <tr class="t2header">
+                <th class="activityColumn">
+                    Activity
+                </th>
+                <th class="dateColumn">
+                    Date
+                </th>
+            </tr>      
+            <tr class="oddRow">
+                <td class="activityColumn">
+                    First day to enrol for re-enrolling (continuing students)
+                </td>
+                <td class="dateColumn">
+                    21 Nov 2022
+                </td>
+            </tr>        
+            <tr class="evenRow">
+                <td class="activityColumn">
+                    Orientation
+                </td>
+                <td class="dateColumn">
+                    18 Jul 2023
+                </td>
+            </tr>
+            <tr class="oddRow">
+                <td class="activityColumn">
+                    Lectures Commence (weeks 1-9)
+                </td>
+                <td class="dateColumn">
+                    24 Jul - 22 Sep 2023
+                </td>
+            </tr>        
+            <tr class="evenRow">
+                <td class="activityColumn">
+                    Last day to enrol / add subjects yourself
+                </td>
+                <td class="dateColumn">
+                    04 Aug 2023
+                </td>
+            </tr>      
+            <tr class="oddRow">
+                <td class="activityColumn">
+                    Last day to enrol / add subjects with Head of Students approval
+                </td>
+                <td class="dateColumn">
+                    11 Aug 2023
+                </td>
+            </tr>
+            <tr class="evenRow">
+                <td class="activityColumn">
+                    <b>CENSUS DATE</b>
+                    <ul>
+                        <li>Fees due</li>
+                        <li>Last day to withdraw from subject/s without paying for them</li>
+                        <li>HECS / FEE HELP debt reporting date</li>
+                        <li>Last day to change HECS / FEE HELP billing option</li>
+                    </ul>
+                    <a href="http://mozilla.org" target="blank">Learn more about Census date ></a>
+                     <p></p>
+                </td>
+                <td class="dateColumn">
+                    31 Aug 2023
+                </td>
+            </tr>
+            <tr class="oddRow">
+                <td class="activityColumn">
+                    Student Service and Amenities Fees Due
+                </td>
+                <td class="dateColumn">
+                    01 Sep 2023
+                </td>
+            </tr>
+        </table>
+
+        <h1>Task 3</h1>
+        <table class="task3">
+            <tr class="t3header">
+                <th class="nameColumn">
+                    <p><b>Name</b></p>
+                </th>
+                <th class="attackColumn">
+                    <p><b>Web Attacks</b></p>
+                </th>
+            </tr>
+            <tr class="t3content">
+                <td class="nameColumn">
+                    <p>SQL Injection</p>
+                    <img class="t3img" src="sql-inject.png">
+                    <p>Source: https://www.avast.com</p>
+                </td>
+                <td class="attackColumn">
+                    Structured Query Language (SQL) Injection is a coding method employed to alter or extract data from SQL databases. By inserting specific SQL statements into an input field, malicious actors can run commands enabling data retrieval, sensitive information compromise, or other manipulative actions within the database. This can include gaining administrator-level privileges, or gaining root access to a machine.
+                    <p>Source: <a href="https://www.cloudflare.com/learning/security/threats/sql-injection/" target="blank">www.cloudflare.com</a></p>
+                </td>
+            </tr>
+            <tr class="t3content">
+                <td class="nameColumn">
+                    <p>Cross-site scripting (XSS)</p>
+                    <img class="t3img" src="xss-attack.png">
+                    <p>Source: https://www.cloudflare.com</p>
+                </td>
+                <td class="attackColumn">
+                    Cross-site scripting (XSS) is a security exploit allowing attackers to inject malicious code into a website, executed by unsuspecting users. It lets attackers bypass access controls, steal sensitive information, and manipulate content. XSS ranked as the seventh most common web app vulnerability in 2017. Successful attacks result from inadequate validation, enabling malicious scripts to access cookies, session tokens, and rewrite HTML. The attacks occur when untrusted data enters a web app or dynamic content lacks proper validation. XSS can take various forms, stealing private data, redirecting victims, or performing malicious actions. Three attack categories are stored, reflected, and DOM-based. Developers must implement robust security measures to prevent XSS and safeguard users.
+                    <p>Source: <a href="https://www.cloudflare.com/learning/security/threats/cross-site-scripting/" target="blank">www.cloudflare.com</a></p>
+
+                </td>
+            </tr>
+            <tr class="t3content">
+                <td class="nameColumn">
+                    <p>Click-jacking</p>
+                    <img class="t3img" src="clickjacking.png">
+                    <p>Source: https://en.wikipedia.org/</p>
+                </td>
+                <td class="attackColumn">
+                    Clickjacking involves deceiving a user into unknowingly clicking on a link or button different from what they perceive it to be. This malicious technique can lead to various outcomes, such as stealing login credentials or obtaining the user's unwitting consent to install malware. Clickjacking is sometimes referred to as "user interface redressing," although this terminology misrepresents the true meaning of "redress."
+                    <p>Source: <a href="https://developer.mozilla.org/en-US/docs/Glossary/Clickjacking" target="blank">developer.mozilla.org/</a></p>
+                </td>
+            </tr>
+            <tr class="t3content">
+                <td class="nameColumn">
+                    <p>Cross-site request forgery (CSRF)</p>
+                    <img class="t3img" src="csrf.png">
+                    <p>Source: https://www.imperva.com/</p>
+                </td>
+                <td class="attackColumn">
+                    Cross-Site Request Forgery (CSRF), also known as XSRF, Sea Surf, or Session Riding, is an attack that deceives a web browser into performing an undesired action within a logged-in user's application. These attacks usually rely on social engineering tactics, like deceptive emails or links, tricking victims into unwittingly sending forged requests to a server. Since the attacker leverages the victim's authenticated session during the attack, distinguishing between legitimate and forged requests becomes nearly impossible. 
+                    <p>Source: <a href="https://www.imperva.com/learn/application-security/csrf-cross-site-request-forgery/" target="blank">www.imperva.com/</a></p>
+                </td>
+            </tr>
+            <tr class="t3content">
+                <td class="nameColumn">
+                    <p>Denial of service (DoS) & Distributed denial of service (DDoS)</p>
+                    <img class="t3img" src="ddos.png">
+                    <p>Source: https://privacysavvy.com/</p>
+                </td>
+                <td class="attackColumn">
+                    Attackers employ various methods to overwhelm a specific server or its surrounding infrastructure with diverse forms of attack traffic. As the targeted server becomes incapable of efficiently handling incoming requests, its performance deteriorates, leading to eventual denial of service for legitimate users seeking access. DDoS attacks achieve effectiveness by utilizing multiple compromised computer systems as sources of attack traffic. 
+                    <p>Source: <a href="https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/" target="blank">www.cloudflare.com</a></p>
+                </td>
+            </tr>
+            <tr class="t3content">
+                <td class="nameColumn">
+                    <p>Man-in-the-middle attacks (MITM)</p>
+                    <img class="t3img" src="mitm.png">
+                    <p>Source: https://wiki.cas.mcmaster.ca</p>
+                </td>
+                <td class="attackColumn">
+                    Man-in-the-middle (MITM) cyber attacks involve security breaches that enable a perpetrator to intercept the exchanged data between two individuals, networks, or computers, earning its name from the attacker inserting themselves between the communicating parties. Essentially, the attacker covertly observes the interaction amid the two entities. This way they may observe and potentially alter sensitive information that is intercepted between parties.
+                    <p>Source: <a href="https://www.fortinet.com/resources/cyberglossary/man-in-the-middle-attack" target="blank">www.fortinet.com</a></p>
+                </td>
+            </tr>
+            <tr class="t3content">
+                <td class="nameColumn">
+                    <p>Phishing attacks</p>
+                    <img class="t3img" src="phishing.png">
+                    <p>Source: https://csoonline.com</p>
+                </td>
+                <td class="attackColumn">
+                    A phishing attack transpires when a malicious individual sends deceptive emails masquerading as legitimate sources, aiming to extract sensitive information from the victim, combining social manipulation and technology. In the execution of such attacks, the perpetrator might dispatch links leading to websites that deceive victims into downloading malware like viruses or revealing private data to the attacker. Frequently, victims remain unaware of the compromise, enabling the attacker to target others within the same organization without raising suspicions.
+                    <p>Source: <a href="https://www.fortinet.com/resources/cyberglossary/phishing" target="blank">www.fortinet.com</a></p>
+                </td>
+            </tr>
+            <tr class="t3content">
+                <td class="nameColumn">
+                    <p>DNS Spoofing</p>
+                    <img class="t3img" src="dnsspoof.png">
+                    <p>Source: https://cloudns.net</p>
+                </td>
+                <td class="attackColumn">
+                    The attacker alters DNS records in order to direct internet traffic to a 'spoofed' website.Upon reaching the deceptive website, the target might unwittingly provide confidential details, which the hacker can exploit or sell. Alternatively, the hacker might create a subpar site featuring damaging or provocative material to tarnish a rival company's reputation. In a DNS spoofing attack, the attacker capitalizes on the victim's assumption that the accessed site is genuine.
+                    <p>Source: <a href="https://www.imperva.com/learn/application-security/dns-spoofing/" target="blank">www.imperva.com</a></p>
+
+                </td>
+            </tr>
+            <tr class="t3content">
+                <td class="nameColumn">
+                    <p>Birthday attack</p>
+                    <img class="t3img" src="mitm.png">
+                    <p>Source: https://wiki.cas.mcmaster.ca</p>
+                </td>
+                <td class="attackColumn">
+                    Through a birthday attack, an assailant exploits hash algorithms, utilized to validate message authenticity. These algorithms serve as digital signatures, and the recipient verifies the message's legitimacy by cross-checking it. If a hacker can generate a matching hash to the sender's, they can substitute the original message with their own, deceiving the recipient's device into acceptance. This attack draws its name from the birthday paradox, highlighting that seemingly unique attributes, like birthdays and hashes, can possess unexpected similarities.
+                    <p>Source: <a href="https://www.internetsecurity.tips/birthday-attack/" target="blank">www.internetsecurity.tips</a></p>
+                </td>
+            </tr>
+            <tr class="t3content">
+                <td class="nameColumn">
+                    <p>Directory / Path traversal</p>
+                    <img class="t3img" src="directory-traversal.png">
+                    <p>Source: https://wikipedia.org/</p>
+                </td>
+                <td class="attackColumn">
+                    Directory Traversal attacks, also known as Path Traversal attacks, focus on exploiting vulnerabilities in web applications by attempting to navigate beyond the intended directory or folder. The attacker aims to manipulate directory paths within the server's structure in order to traverse upwards in the directory hierarchy. If successful, this type of attack can lead to unauthorized access to sensitive files, including configuration files, databases, and even other websites and files that reside on the same server.
+                    <p>Source: <a href="https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself" target="blank">www.tripwire.com</a></p>
+                </td>
+            </tr>
+        </table>
+
+        <h1>Task 4</h1>
+        <div class="t4">
+            <button id="cat" onclick="cat()">Cat</button>
+            <button id="dog" onclick="dog()">Dog</button>
+            <button id="frog" onclick="frog()">Frog</button>
+            <br>
+            <input id="display1">
+            <p id="display2"></p>
+            <img id="display3">
+            <p id="t4Source"></p>
+        </div>
+
+    </body>
+</html>
